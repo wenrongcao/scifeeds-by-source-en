@@ -23,7 +23,7 @@ Read available RSS feeds directly through the SciFeeds MCP. If an individual sou
 
 ### 1. Get the source list (standalone use and live updates)
 
-The skill bundles `references/sources.opml`, which currently contains 27 sources with their titles, RSS URLs, and homepage URLs. This manifest is included when the skill is shared, so users do not need your local MCP installation just to obtain the feed list.
+The skill bundles `references/sources.opml`, which currently contains 25 sources with their titles, RSS URLs, and homepage URLs. This manifest is included when the skill is shared, so users do not need your local MCP installation just to obtain the feed list.
 
 If SciFeeds MCP is available, call `mcp__sci_feeds__list_feeds` and use its successfully returned live list. If MCP is not installed, the call fails, or its result is unusable, parse the bundled OPML as the source list; do not stop just because MCP is unavailable. If the live list differs from the bundled manifest, use the live list and say it came from MCP. Otherwise, say that the bundled snapshot was used. Keep every source in the chosen list, including sources with no articles.
 

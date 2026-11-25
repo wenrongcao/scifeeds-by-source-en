@@ -4,7 +4,7 @@ A shareable [Hermes Agent](https://github.com/NousResearch/hermes-agent) skill t
 
 ## What it does
 
-- Bundles a portable OPML manifest with 27 RSS sources for standalone use.
+- Bundles a portable OPML manifest with 25 RSS sources for standalone use.
 - Falls back to Hermes `web_extract` for feeds that fail or return no entries, including blocked ScienceDirect RSS endpoints.
 - Filters entries by publication date, deduplicates results, and reports empty or unreadable feeds separately.
 
@@ -24,15 +24,14 @@ Start a new Hermes session and ask it to list recent SciFeeds articles, for exam
 ## Repository contents
 
 - `SKILL.md` — workflow and output requirements for Hermes Agent.
-- `references/sources.opml` — bundled 27-feed source manifest (titles, RSS URLs, and homepages).
+- `references/sources.opml` — bundled 25-feed source manifest (titles, RSS URLs, and homepages).
 
 ## Sources
 
-The following 27 sources are included in the bundled OPML manifest. Click a name to open its RSS feed.
+The following 25 sources are included in the bundled OPML manifest. Click a name to open its RSS feed.
 
 - [AGU Advances](https://agupubs.onlinelibrary.wiley.com/feed/2576604x/most-recent)
 - [Annual Review of Earth and Planetary Science: Most Recent Articles](https://www.annualreviews.org/rss/content/journals/earth/latestarticles?fmt=rss)
-- [Down to Earth Questions](https://downtoearthquestions.blogspot.com/feeds/posts/default?alt=rss)
 - [essoar geology](https://essopenarchive.org/action/showFeed?ui=0&mi=3fv225&type=search&feed=rss&query=%2526AllField%253Dgeology%2526content%253Dpreprints)
 - [EPSL](https://rss.sciencedirect.com/publication/science/0012821X)
 - [ESR](https://rss.sciencedirect.com/publication/science/00128252)
@@ -54,7 +53,6 @@ The following 27 sources are included in the bundled OPML manifest. Click a name
 - [PNAS Earth Sciences](https://www.pnas.org/action/showFeed?type=searchTopic&taxonomyCode=topic&tagCode=earth-sci)
 - [Science](https://feeds.science.org/rss/science.xml)
 - [Science Advances](https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv)
-- [Speaking of Geoscience](https://speakingofgeoscience.org/feed/)
 - [Tectonics](https://agupubs.onlinelibrary.wiley.com/action/showFeed?jc=19449194&type=etoc&feed=rss)
 - [Tectonophysics](https://rss.sciencedirect.com/publication/science/00401951)
 
